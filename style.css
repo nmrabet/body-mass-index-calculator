@@ -1,0 +1,21 @@
+:root {
+    --clr-primary-400: #345FF6;
+    --clr-gray-800: #253347;
+    --clr-gray-500: #5E6E85;
+    --clr-blue-100: #D8E2E7;
+
+    --fs-heading-s: 1.25rem;
+    --fs-heading-m: 1.5rem;
+    --fs-heading-l: 3rem;
+    --fs-heading-xl: 4rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
