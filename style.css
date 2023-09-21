@@ -50,6 +50,12 @@ section {
   color: var(--clr-gray-800);
 }
 
+.radio-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .container {
   border: 1px solid gray;
   border-radius: 10px;
