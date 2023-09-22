@@ -75,6 +75,7 @@ input[type="radio"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin: 2em 0;
 }
 
 .radio {
@@ -104,6 +105,7 @@ input[type="radio"] {
   display: block;
 }
 
+
 .height,
 .weight {
   display: flex;
@@ -120,6 +122,7 @@ input[type="text"] {
   outline: none;
   font-weight: bolder;
   font-size: var(--fs-heading-m);
+  width: 100%;
 }
 
 .input__helper {
