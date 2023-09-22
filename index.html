@@ -36,16 +36,26 @@
 
         <div class="radio-btns">
           <div class="radio">
-            <input type="radio" name="metric" id="metric" />
+            <input
+              type="radio"
+              name="radio-select"
+              id="metric"
+              value="metric"
+            />
             <label for="metric">Metric</label>
           </div>
           <div class="radio">
-            <input type="radio" name="imperial" id="imperial" />
+            <input
+              type="radio"
+              name="radio-select"
+              id="imperial"
+              value="imperial"
+            />
             <label for="imperial">Imperial</label>
           </div>
         </div>
 
-        <form class="metric-view">
+        <form id="metric-view">
           <div class="height">
             <label for="height">Height</label>
             <input type="text" name="height" id="height" />
@@ -58,22 +68,22 @@
           </div>
         </form>
 
-        <!-- <form class="imperial-view">
+        <form id="imperial-view">
           <div class="height">
-            <label for=""></label>
+            <label for="">Height</label>
             <input type="text" name="height" id="height" />
 
-            <label for=""></label>
+            <label for="">Height</label>
             <input type="text" name="height" id="height" />
           </div>
           <div class="weight">
-            <label for="weight"></label>
+            <label for="weight">Weight</label>
             <input type="text" name="weight" id="weight" />
-            
-            <label for="weight"></label>
+
+            <label for="weight">Weight</label>
             <input type="text" name="weight" id="weight" />
           </div>
-        </form> -->
+        </form>
 
         <div class="BMI-result">
           <h6>Your BMI is...</h6>
