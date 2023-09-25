@@ -57,13 +57,13 @@
 
         <form id="metric-view">
           <div class="height">
-            <label for="height">Height</label>
-            <input type="text" name="height" id="height" />
+            <label for="mheight">Height</label>
+            <input type="text" name="mheight" id="mheight" />
             <span class="input__helper">cm</span>
           </div>
           <div class="weight">
-            <label for="weight">Weight</label>
-            <input type="text" name="weight" id="weight" />
+            <label for="mweight">Weight</label>
+            <input type="text" name="mweight" id="mweight" />
             <span class="input__helper">kg</span>
           </div>
         </form>
@@ -72,11 +72,11 @@
           <label for="height">Height</label>
           <div class="row">
             <div class="height">
-              <input type="text" name="height" id="height" />
+              <input type="text" name="height" id="iheight" />
               <span class="input__helper">ft</span>
             </div>
             <div class="height">
-              <input type="text" name="height" id="height" />
+              <input type="text" name="height" id="iheight" />
               <span class="input__helper">in</span>
             </div>
           </div>
@@ -95,12 +95,13 @@
 
         <div class="BMI-result">
           <h6>Your BMI is...</h6>
-          <h2>Score</h2>
+          <h2 id="bmi-score">Score</h2>
           <div>
             <p>
               Your BMI suggests you're
-              <!-- add classification -->. Your ideal weight is between
-              <!-- add range -->.
+              <span id="classification"><!-- add classification -->.</span>
+              Your ideal weight is between
+              <span id="range"><!-- add range -->.</span>
             </p>
           </div>
         </div>
