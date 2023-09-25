@@ -109,6 +109,7 @@ input[type="radio"] {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-top: 1.5em;
 }
 
 input[type="text"] {
@@ -131,7 +132,7 @@ input[type="text"] {
   color: var(--clr-primary-400);
 }
 
-.BMI-result {
+#BMI-result {
   background-color: var(--clr-primary-400);
   border-radius: 10px;
   padding: 3em 2em;
@@ -139,12 +140,12 @@ input[type="text"] {
   margin: 1em 0;
 }
 
-.BMI-result h6 {
+#BMI-result h6 {
   font-size: var(--fs-heading-s);
   margin: 0;
 }
 
-.BMI-result h2 {
+#BMI-result h2 {
   font-size: var(--fs-heading-l);
   margin-top: 0;
 }
