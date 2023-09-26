@@ -109,7 +109,6 @@ input[type="radio"] {
   display: flex;
   flex-direction: column;
   position: relative;
-  margin-top: 1.5em;
 }
 
 input[type="text"] {
