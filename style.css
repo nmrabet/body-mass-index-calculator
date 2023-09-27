@@ -25,7 +25,7 @@ body {
 header,
 main,
 section {
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -60,7 +60,6 @@ section {
 
 .header__text {
   font-size: var(--fs-heading-m);
-  margin: 0 0.5em;
   line-height: 1.35;
   color: var(--clr-gray-800);
 }
@@ -88,7 +87,7 @@ input[type="radio"] {
 .container {
   background-color: #fff;
   border-radius: 10px;
-  margin: 3em 1em;
+  margin: 8em 1em;
   padding: 0.5em 1.5em;
 }
 
@@ -191,12 +190,14 @@ section {
 
 .section__text {
   margin-bottom: 3em;
-  margin-left: 1em;
-  margin-right: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+  line-height: 1.65;
 }
 
 .section__title {
-  font-size: var(--fs-heading-m);
+  font-size: var(--fs-heading-l);
 }
 
 .card-container {
@@ -205,7 +206,7 @@ section {
   max-width: 360px;
   margin: 0.5em auto;
   gap: 1em;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+  box-shadow: rgba(199, 236, 255, 0.4) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
@@ -240,4 +241,47 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
   }
+}
+
+@media screen and (min-width: 1024px) {
+  .header-container {
+    width: 70%;
+  }
+
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .wrapper__left {
+    width: 50%;
+  }
+
+  .logo {
+    display: block;
+    margin: 2em 0 9em 0;
+  }
+
+  .title,
+  .header__text {
+    text-align: left;
+    max-width: 600px;
+  }
+
+  .col {
+    align-items: center;
+    margin: 6em 0;
+  }
+
+  .block-container {
+    display: flex;
+    gap: 3em;
+  }
+
+  .section__title,
+  .section__text {
+    text-align: left;
+    margin-left: 0;
+  }
+
 }
