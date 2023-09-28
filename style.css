@@ -282,6 +282,10 @@ section {
   .section__text {
     text-align: left;
     margin-left: 0;
+    width: 600px;
   }
-
+  
+  section {
+    display: flex;
+  }
 }
